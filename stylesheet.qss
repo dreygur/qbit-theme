@@ -114,6 +114,11 @@ QToolBar::separator {
     margin: 3px 2px;
 }
 
+/* All direct children of toolbar inherit toolbar background */
+QToolBar > QWidget {
+    background-color: #2f343e;
+}
+
 QToolButton {
     background: transparent;
     color: #dce0e5;
@@ -159,6 +164,27 @@ QStatusBar::item {
 QStatusBar QLabel {
     color: #a9afbc;
     background: transparent;
+    padding: 0 3px;
+}
+
+QStatusBar QToolButton,
+QStatusBar QPushButton {
+    background: transparent;
+    border: none;
+    border-radius: 3px;
+    padding: 3px 5px;
+    color: #a9afbc;
+}
+
+QStatusBar QToolButton:hover,
+QStatusBar QPushButton:hover {
+    background-color: #363c46;
+    color: #dce0e5;
+}
+
+QStatusBar QToolButton:pressed,
+QStatusBar QPushButton:pressed {
+    background-color: #293b5b;
 }
 
 /* ── Tab widget ───────────────────────────────────────────────────────── */
@@ -167,6 +193,7 @@ QTabWidget::pane {
     background-color: #282c33;
     border: 1px solid #464b57;
     border-top: none;
+    border-radius: 0 0 4px 4px;
 }
 
 QTabWidget::tab-bar {
@@ -174,7 +201,7 @@ QTabWidget::tab-bar {
 }
 
 QTabBar {
-    background: transparent;
+    background-color: #2f343e;
     border-bottom: 1px solid #464b57;
 }
 
@@ -185,6 +212,7 @@ QTabBar::tab {
     border: none;
     border-bottom: 2px solid transparent;
     margin-right: 1px;
+    min-width: 60px;
 }
 
 QTabBar::tab:selected {
