@@ -23,6 +23,6 @@ if [[ -z "$RCC" ]]; then
     exit 1
 fi
 
-"$RCC" resources.qrc -o "$OUTPUT"
+"$RCC" -binary resources.qrc -o "$OUTPUT"
 
 echo "Built: $OUTPUT"
