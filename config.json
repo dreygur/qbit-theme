@@ -25,6 +25,7 @@
     "Palette.BrightTextDisabled":       "#878a98",
     "Palette.HighlightedTextDisabled":  "#878a98",
     "Palette.ButtonTextDisabled":       "#878a98",
+    "Palette.PlaceholderText":          "#878a98",
 
     "Log.TimeStamp":  "#5d636f",
     "Log.Normal":     "#dce0e5",
