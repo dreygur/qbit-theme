@@ -162,9 +162,9 @@ QStatusBar::item {
 }
 
 QStatusBar QLabel {
-    color: #a9afbc;
+    color: #878a98;
     background: transparent;
-    padding: 0 3px;
+    padding: 0 2px;
 }
 
 QStatusBar QToolButton,
