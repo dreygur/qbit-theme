@@ -261,6 +261,28 @@ QPushButton {
     min-width: 72px;
 }
 
+/* Icon-only buttons — no text = no min-width, no heavy bg */
+QPushButton[text=""],
+QPushButton:flat {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 5px;
+    min-width: 0;
+}
+
+QPushButton[text=""]:hover,
+QPushButton:flat:hover {
+    background-color: #363c46;
+    border-color: #464b57;
+}
+
+QPushButton[text=""]:pressed,
+QPushButton:flat:pressed {
+    background-color: #293b5b;
+    border-color: #47679e;
+}
+
 QPushButton:hover {
     background-color: #3d4350;
     border-color: #5a6070;
@@ -559,7 +581,7 @@ QProgressBar {
 }
 
 QProgressBar::chunk {
-    background-color: #47679e;
+    background-color: #3a5070;
     border-radius: 3px;
 }
 
