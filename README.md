@@ -1,41 +1,33 @@
-# Zed One Dark — qBittorrent Theme
+# Zed One Dark - qBittorrent Theme
 
-A faithful port of [Zed editor](https://zed.dev)'s One Dark theme for qBittorrent v5.x.
+A port of [Zed editor](https://zed.dev)'s One Dark theme for qBittorrent v5.x.
 
-## Preview
+## Screenshots
 
-> Dark blue-grey surfaces · Zed-style SVG icons · Semantic transfer state colors
+<!-- Add screenshots to preview/ and update paths below -->
+![Main window](preview/screenshot.png)
+
+## Colors
+
+![Palette](preview/palette.svg)
+
+## Icons
+
+![Icons](preview/icons.svg)
+
+86 icons sourced from [Zed editor assets](https://github.com/zed-industries/zed/tree/main/assets/icons), recolored for the One Dark palette.
 
 ## Installation
 
-1. Download `zed-one-dark.qbtheme` from the [latest release](https://github.com/dreygur/qbit-theme/releases/latest)
-2. Open qBittorrent → **Tools → Options → Behavior → Interface**
+1. Download `zed-one-dark.qbtheme` from [Releases](https://github.com/dreygur/qbit-theme/releases/latest)
+2. Open qBittorrent > **Tools > Options > Behavior > Interface**
 3. Check **Use custom UI Theme**
-4. Browse to the downloaded `.qbtheme` file
+4. Select the downloaded `.qbtheme` file
 5. Click OK and restart qBittorrent
 
-## Requirements
+Requires qBittorrent **v5.0+**.
 
-- qBittorrent **v5.0+** (uses Qt6 binary resource format)
-
-## Color Palette
-
-| Role | Color |
-|------|-------|
-| Window | `#3b414d` |
-| Surface | `#2f343e` |
-| Base (inputs/lists) | `#282c33` |
-| Text | `#dce0e5` |
-| Text muted | `#a9afbc` |
-| Accent | `#74ade8` |
-| Border | `#464b57` |
-| Downloading | `#a1c181` |
-| Uploading | `#74ade8` |
-| Stopped | `#878a98` |
-| Error | `#d07277` |
-| Warning | `#dec184` |
-
-## Building from Source
+## Building
 
 Requires Qt6 `rcc`:
 
@@ -46,10 +38,5 @@ sudo dnf install qt6-qtbase-devel
 # Debian/Ubuntu
 sudo apt install qt6-base-dev
 
-# Build
 ./build.sh
 ```
-
-## License
-
-MIT

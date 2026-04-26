@@ -1,4 +1,4 @@
-/* Zed One Dark — qBittorrent
+/* Zed One Dark - qBittorrent
  *
  *  3 surface levels:   #3b414d  #2f343e  #282c33
  *  text:               #dce0e5  #a9afbc  #878a98
@@ -261,7 +261,7 @@ QPushButton {
     min-width: 72px;
 }
 
-/* Icon-only buttons — no text = no min-width, no heavy bg */
+/* Icon-only buttons - no text = no min-width, no heavy bg */
 QPushButton[text=""],
 QPushButton:flat {
     background: transparent;
