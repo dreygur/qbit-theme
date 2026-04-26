@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.qbittorrent.org)",
+      "WebSearch",
+      "WebFetch(domain:zed.dev)",
+      "Bash(gh api *)"
+    ]
+  }
+}

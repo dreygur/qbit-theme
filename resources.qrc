@@ -3,6 +3,12 @@
     <qresource prefix="/">
         <file>stylesheet.qss</file>
         <file>config.json</file>
+        <file>icons/dark/checkbox_checked.svg</file>
+        <file>icons/dark/checkbox_unchecked.svg</file>
+        <file>icons/dark/checkbox_indeterminate.svg</file>
+        <file>icons/dark/radio_checked.svg</file>
+        <file>icons/dark/radio_unchecked.svg</file>
+        <file>icons/dark/arrow_down_combo.svg</file>
         <file>icons/dark/application-exit.svg</file>
         <file>icons/dark/application-rss.svg</file>
         <file>icons/dark/application-url.svg</file>
